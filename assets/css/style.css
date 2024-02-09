@@ -188,4 +188,8 @@ nav a:hover {
       padding: 5px;
       text-align: center;
     }
+
+    .img-box {
+      width: 100%;
+    }
 }

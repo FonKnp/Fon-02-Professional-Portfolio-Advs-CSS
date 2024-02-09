@@ -2,14 +2,18 @@
 :root {
   --light: white;
   --lightgray: lightgray;
-  --dark: ;
+  --dark: #06234a;
   --blue: #4786ba;
+  --lightblue: lightblue;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Element Selectors */
 body {
     position: relative;
-    font-family: monospace;
     margin: 0;
     display: inline;
     background-color: var(--lightgray);
@@ -18,13 +22,39 @@ body {
 header {
   background-color: var(--blue);
   display: flex;
-  justify-content: space-between;
   align-items: center;
   color: var(--light);
+  border-bottom: 5px solid var(--light);
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: var(--blue);
+  border-bottom: 5px solid var(--dark);
+  border-top: 5px solid var(--light);
+  position: absolute;
+  bottom: 0;
+}
+
+nav {
+  margin: 2rem ;
 }
 
 h1 {
+  margin: 2rem;
   font-size: 200%;
+}
+
+nav li {
+  display: inline;
+  text-align: right;
+}
+nav a {
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px;
+  color: var(--light);
 }
 
 /* Class Selectors */
@@ -48,9 +78,21 @@ h1 {
   
 }
 
+section {
+  margin: 20px;
+  padding: 50px;
+  height: 300px;
+  background-color: var(--lightblue) 20%;
+  border-radius: 1em;
+}
 
-.text-right {
-  text-align: right;
+.logo-container {
+  
+}
+
+.icon {
+  width: 20px;
+  
 }
 
 /* Pseudo Element Selectors */
@@ -65,18 +107,21 @@ h1 {
   opacity: 1;
 }
 
+nav a:hover {
+  border-radius: 5px;
+  background-color: var(--lightgray);
+  color: var(--dark);
+}
+
 /* When screen smaller than 768px */
 @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
     }
   
-    section {
-      padding-right: 0;
-    }
-  
-    aside {
-      width: 100%;
+    nav li {
+      display: block;
+      padding: 5px;
       text-align: center;
     }
 }

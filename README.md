@@ -17,4 +17,4 @@ This is the screenshot of my portfolio deployed page.
 ![Fon Jiamjan Portfolio Webpage Screenshot Small](assets/images/Fon-Portfolio-Screenshot-Small.png)
 
 And here is the link to my portfolio webpage.
-[Fon Jiamjan Portfolio Webpage]()
+[Fon Jiamjan Portfolio Webpage](https://fonknp.github.io/Fon-02-Professional-Portfolio-Advs-CSS/)

@@ -19,3 +19,11 @@ This is the screenshot of my portfolio deployed page.
 And here is the link to my portfolio webpage.
 
 [Fon Jiamjan Portfolio Webpage](https://fonknp.github.io/Fon-02-Professional-Portfolio-Advs-CSS/)
+
+## Credits
+
+Instuctor, MSU coding bootcamp week 1 and 2, and myself.
+
+## License
+
+MIT License

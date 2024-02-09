@@ -12,9 +12,9 @@ If you have smaller screen it will rearrange section to make it look better.
 
 This is the screenshot of my portfolio deployed page.
 
-[Fon Jiamjan Portfolio Webpage Screenshot Big](assets/images/Fon-Portfolio-Screenshot-Big.png)
+![Fon Jiamjan Portfolio Webpage Screenshot Big](assets/images/Fon-Portfolio-Screenshot-Big.png)
 
-[Fon Jiamjan Portfolio Webpage Screenshot Small](assets/images/Fon-Portfolio-Screenshot-Small.png)
+![Fon Jiamjan Portfolio Webpage Screenshot Small](assets/images/Fon-Portfolio-Screenshot-Small.png)
 
 And here is the link to my portfolio webpage.
 [Fon Jiamjan Portfolio Webpage]()

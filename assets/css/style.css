@@ -9,6 +9,7 @@
 
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
 }
 
 /* Element Selectors */
@@ -33,8 +34,16 @@ footer {
   background-color: var(--blue);
   border-bottom: 5px solid var(--dark);
   border-top: 5px solid var(--light);
-  position: absolute;
   bottom: 0;
+}
+
+section {
+  margin: 20px;
+  padding: 50px;
+  height: 300px;
+  background-color: rgb(71,134,186,.1);
+  border-radius: 1em;
+  color: var(--dark);
 }
 
 nav {
@@ -44,6 +53,10 @@ nav {
 h1 {
   margin: 2rem;
   font-size: 200%;
+}
+
+h2 {
+  font-size: 150%;
 }
 
 nav li {
@@ -57,6 +70,12 @@ nav a {
   color: var(--light);
 }
 
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
 /* Class Selectors */
 .avatar-still {
   border-style: dashed;
@@ -68,7 +87,7 @@ nav a {
 }
 
 .avatar-gif {
-  position: fixed;
+  position: absolute;
   opacity: 0;
   border-style: dashed;
   border-radius: 8em;
@@ -78,20 +97,20 @@ nav a {
   
 }
 
-section {
-  margin: 20px;
-  padding: 50px;
-  height: 300px;
-  background-color: var(--lightblue) 20%;
-  border-radius: 1em;
+.text-center {
+  text-align: center;
 }
 
-.logo-container {
-  
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .icon {
-  width: 20px;
+  width: 30px;
   
 }
 

@@ -160,6 +160,12 @@ footer ul {
 }
 
 /* Pseudo Element Selectors */
+nav a:hover {
+  border-radius: 5px;
+  background-color: var(--lightgray);
+  color: var(--dark);
+}
+
 .avatar-still:hover {
   opacity: 0;
 }
@@ -169,12 +175,6 @@ footer ul {
   border-style: solid;
   background-color: var(--blue);
   opacity: 1;
-}
-
-nav a:hover {
-  border-radius: 5px;
-  background-color: var(--lightgray);
-  color: var(--dark);
 }
 
 .box:hover {
@@ -198,7 +198,6 @@ nav a:hover {
       flex-direction: column;
     }
     
-
     h1 {
       margin: 0;
       text-align: center;
